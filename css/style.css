@@ -1327,6 +1327,10 @@ body {
     opacity: 1;
     visibility: visible;
 }
+@media only screen and (max-width: 790px) {
+    visibility: hidden;
+    opacity: 0;
+}
 .popup:target .popup__content {
     opacity: 1;
     -webkit-transform: translate(-50%, -50%) scale(1);
