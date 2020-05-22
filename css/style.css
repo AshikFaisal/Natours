@@ -1328,8 +1328,10 @@ body {
     visibility: visible;
 }
 @media only screen and (max-width: 790px) {
-    visibility: hidden;
-    opacity: 0;
+    .popup:target {
+        opacity: 0;
+        visibility: hidden;
+    }
 }
 .popup:target .popup__content {
     opacity: 1;
